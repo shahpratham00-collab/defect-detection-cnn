@@ -1,0 +1,106 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env/
+.conda/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── ML model artefacts ────────────────────────────────────────────────────────
+models/*.keras
+models/*.h5
+models/*.pb
+models/*.tflite
+models/*.onnx
+*.h5
+
+# ── Dataset (large — store separately) ───────────────────────────────────────
+NEU-DET/
+data/
+datasets/
+
+# ── Training outputs / logs ───────────────────────────────────────────────────
+logs/
+runs/
+wandb/
+mlruns/
+*.log
+tensorboard_logs/
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── Linux ─────────────────────────────────────────────────────────────────────
+*~
+
+# ── IDEs and editors ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.spyproject
+.spyderproject
+*.komodoproject
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+*.rej
+.cache/
