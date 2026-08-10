@@ -194,10 +194,10 @@ Overall test set: **95.28% accuracy** with no single class below 90%.
 ## Author
 
 **Pratham Shah**  
-MSc Artificial Intelligence & Data Science  
+MSc Artificial Intelligence
 Nottingham Trent University  
 `shahpratham00@gmail.com`
 
 ---
 
-*Part of the Applied AI Coursework portfolio — MSc AI & Data Science, NTU, 2026.*
+*Part of the Applied AI Coursework portfolio — MSc Artificial Intelligence, NTU, 2026.*
